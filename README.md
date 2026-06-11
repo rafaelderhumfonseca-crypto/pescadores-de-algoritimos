@@ -2,12 +2,12 @@ Template do README.md
 # pesca de algoritimos
 > **Status:** em desenvovimento de ideias
 > **Data:** 25/05/2026
-## Problema
-loja, a principio sem definição de produtos no momento
+## Tema
+Loja de jogos e peças de computador
 ## Solução
 maior satisfação do cliente em relação a preços, conforto e praticidade nas compras
 ## Público-alvo
-- ainda não definido
+Gamers e programadores
 ## Funcionalidades principais (máx. 5)
 1. vendas práticas
 2. satisfação do cliente
@@ -22,6 +22,11 @@ maior satisfação do cliente em relação a preços, conforto e praticidade nas
 ## Cronograma básico (semanas)
 - não definido
 ## Integrantes e papéis
+1. Rafael-lider do grupo
+2. Victor-Programador back-end e banco de dados
+3. Ismael-Programador front-end
+4. Emanuel-teste de qualidade
+5. Arthur-documentador de conteúdo
 ## Links úteis
 - **Kanban (Trello):** socorro
 - **Protótipo (Figma):** https://www.figma.com/make/mwao2IPRydcNvPR8mClWID/Portal-Gamer-Completo?t=ZvtuJMESix60A2Wn-1&preview-route=%2Fcadastro
