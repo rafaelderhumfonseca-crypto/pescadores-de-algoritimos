@@ -29,5 +29,5 @@ Gamers e programadores
 5. Arthur-documentador de conteúdo
 ## Links úteis
 - **Kanban (Trello):** socorro
-- **Protótipo (Figma):** https://www.figma.com/make/mwao2IPRydcNvPR8mClWID/Portal-Gamer-Completo?t=ZvtuJMESix60A2Wn-1&preview-route=%2Fcadastro
+- **Protótipo (Figma):** https://www.figma.com/make/mwao2IPRydcNvPR8mClWID/Portal-Gamer-Completo?t=kgo7CCL2jJ0pxksL-20&fullscreen=1
 - **Repositório:** https://github.com/victorgji/pescadores-de-algoritimos/tree/main
