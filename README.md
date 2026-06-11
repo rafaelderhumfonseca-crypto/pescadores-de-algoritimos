@@ -24,5 +24,5 @@ maior satisfação do cliente em relação a preços, conforto e praticidade nas
 ## Integrantes e papéis
 ## Links úteis
 - **Kanban (Trello):** socorro
-- **Protótipo (Figma):** [a preencher]
+- **Protótipo (Figma):** https://www.figma.com/make/mwao2IPRydcNvPR8mClWID/Portal-Gamer-Completo?t=ZvtuJMESix60A2Wn-1&preview-route=%2Fcadastro
 - **Repositório:** https://github.com/victorgji/pescadores-de-algoritimos/tree/main
