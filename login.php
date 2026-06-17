@@ -1,7 +1,7 @@
 <?php
     $host = "localhost";
-    $db   = "projeto_de_algoritimos_ofc";
-    $user = "root"; 
+    $user = "root";
+    $db   = "projeto_de_algoritimos_ofc"; 
     $pass = "";     
 
     $conn = new mysqli($host, $user, $pass, $db);

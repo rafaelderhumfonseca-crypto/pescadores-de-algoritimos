@@ -1,8 +1,8 @@
 <?php
     $host = "localhost";
     $user = "root";
-    $pass = "";
     $dbname = "projeto_de_algoritimos_ofc";
+    $pass = "";
 
     $conn = new mysqli($host, $user, $pass, $dbname);
 
