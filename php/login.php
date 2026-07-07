@@ -22,13 +22,13 @@
             $row = $result->fetch_assoc();
             
             if (password_verify($senha, $row['senha'])) {
-                echo "<script>alert('Login realizado com sucesso!'); window.location.href='home.html';</script>";
+                echo "<script>alert('Login realizado com sucesso!'); window.location.href='../index.html';</script>";
             } else {
-                echo "<script>alert('Senha incorreta.'); window.location.href='login.html';</script>";
+                echo "<script>alert('Senha incorreta.'); window.location.href='../paginas/login.html';</script>";
             }
         } 
         else {
-            echo "<script>alert('Usuário ou email não encontrados.'); window.location.href='login.html';</script>";
+            echo "<script>alert('Usuário ou email não encontrados.'); window.location.href='../paginas/login.html';</script>";
         }
     }
 

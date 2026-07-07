@@ -1,5 +1,5 @@
-db.opt -text
 clientes.frm -text
 clientes.ibd -text
+db.opt -text
 produtos.frm -text
 produtos.ibd -text

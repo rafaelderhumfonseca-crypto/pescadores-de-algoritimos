@@ -20,8 +20,9 @@
     $stmt->bind_param("ssss", $nome, $email, $senha, $telefone);
 
     if ($stmt->execute()) {
-        echo "<script>alert('Cadastro realizado com sucesso!'); window.location.href='login.html';</script>";
-    } else {
+        echo "<script>alert('Cadastro realizado com sucesso!'); window.location.href='../paginas/login.html';</script>";
+    } 
+    else {
         echo "Erro ao cadastrar: " . $conn->error;
     }
 
