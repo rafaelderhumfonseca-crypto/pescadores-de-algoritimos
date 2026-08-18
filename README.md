@@ -5,7 +5,7 @@ Template do README.md
 ## Tema
 Loja de jogos fisicos (cd's), consoles, hardware de computadores e celulares em geral
 ## Solução
-maior satisfação do cliente em relação a preços, conforto e praticidade nas compras (utilizando piscicologia das cores e métodos de liberação de dopamina atráves de "truques" piscicologicos atuais)
+maior satisfação do cliente em relação a preços, conforto e praticidade nas compras
 ## Público-alvo
 Gamers, Programadores, Empresas de tecnologia e Usuarios em geral de tecnologias (Como os produtos escritos acima)
 ## Funcionalidades principais (máx. 5)
