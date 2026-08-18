@@ -14,12 +14,8 @@ Gamers, Programadores, Empresas de tecnologia e Usuarios em geral de tecnologias
 ## Diferencial competitivo
 Utilisação de métodos piscicologicos para melhor experiencia do usuario final
 ## Tecnologias planejadas (Back-end)
-cadastro
-login
-manter usuario logado
-verificação de duas etapas
-menu de configurações próprio de cada usuario(que se mantenha mesmo após sair do site)
-Utilisação em mais de um tipo de maquina (computadores, tablet's e celulares)
+verificação de duas etapas,
+menu de configurações próprio de cada usuario(que se mantenha mesmo após sair do site) e Utilisação em mais de um tipo de maquina (computadores, tablet's e celulares)
 ## Riscos iniciais
 1. falhas de banco de dados
 2. falha no funcionamento como servidor remoto
