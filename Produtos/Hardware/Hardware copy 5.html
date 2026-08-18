@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nexus Store</title>
+
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/1686/1686306.png">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        ⚔️ 💎 NEXUS <span class="destaque-store">STORE 💎 ⚔️</span>
+    </div>
+</header>
+
+<main class="produto">
+
+    <section class="galeria">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShx99Adk7LtHcXk_-fLlu0CUtxjW2NhGZUEwM7zRbMeA&s=10" class="principal" alt="AMD Ryzen 9 9950X3D">
+    </section>
+
+    <section class="informacoes">
+
+        <h1>AMD Ryzen 9 9950X3D</h1>
+
+        <div class="avaliacao">
+            <span>★★★★★</span>
+        </div>
+
+        <div class="preco">
+            R$ 900.00
+        </div>
+
+        <div class="quantidade">
+            <label>Quantidade</label>
+
+            <div class="contador">
+                <button type="button" onclick="alterarQuantidade(-1)">-</button>
+                <input id="quantidade" type="text" value="1" readonly>
+                <button type="button" onclick="alterarQuantidade(1)">+</button>
+            </div>
+        </div>
+
+        <button class="comprar" type="button" onclick="comprarAgora()">
+            Comprar Agora
+        </button>
+
+        <p>
+            <br><br><br><br>
+            Informacoes: 
+            <br>
+            AMD Ryzen 9 9950X3D
+        </p>
+
+    </section>
+
+</main>
+
+<script>
+function alterarQuantidade(valor) {
+    const campo = document.getElementById("quantidade");
+    let quantidade = parseInt(campo.value) + valor;
+
+    if (quantidade < 1) {
+        quantidade = 1;
+    }
+
+    campo.value = quantidade;
+}
+
+function comprarAgora() {
+    const quantidade = document.getElementById("quantidade").value;
+    alert("Produto: AMD Ryzen 9 9950X3D\nQuantidade: " + quantidade + "\nValor unitario: R$ 900.00");
+}
+</script>
+
+</body>
+</html>

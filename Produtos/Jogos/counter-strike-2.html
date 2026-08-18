@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Counter-Strike 2 - Nexus Store</title>
+
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/1686/1686306.png">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        ⚔️ 💎 NEXUS <span class="destaque-store">STORE 💎 ⚔️</span>
+    </div>
+</header>
+
+<main class="produto">
+
+    <section class="galeria">
+        <img src="https://cdn.egamersworld.com/cdn-cgi/image/width=690,quality=75,format=webp/uploads/blog/1696414021417.webp" class="principal" alt="Counter-Strike 2">
+    </section>
+
+    <section class="informacoes">
+
+        <h1>Counter-Strike 2</h1>
+
+        <div class="avaliacao">
+            <span>★★★★★</span>
+        </div>
+
+        <div class="preco">
+            R$ 50
+        </div>
+
+        <div class="quantidade">
+            <label>Quantidade</label>
+
+            <div class="contador">
+                <button type="button" onclick="alterarQuantidade(-1)">-</button>
+                <input id="quantidade" type="text" value="1" readonly>
+                <button type="button" onclick="alterarQuantidade(1)">+</button>
+            </div>
+        </div>
+
+        <button class="comprar" type="button" onclick="comprarAgora()">
+            Comprar Agora
+        </button>
+
+        <p>
+            <br><br><br><br>
+            Informacoes: Counter-Strike 2 e um jogo competitivo de tiro em primeira pessoa. As partidas colocam duas equipes em confronto, com objetivos como plantar ou desarmar a bomba. O jogo exige mira, estrategia, comunicacao e trabalho em equipe.
+            <br>
+        </p>
+
+    </section>
+
+</main>
+
+<script>
+function alterarQuantidade(valor) {
+    const campo = document.getElementById("quantidade");
+    let quantidade = parseInt(campo.value) + valor;
+
+    if (quantidade < 1) {
+        quantidade = 1;
+    }
+
+    campo.value = quantidade;
+}
+
+function comprarAgora() {
+    const quantidade = document.getElementById("quantidade").value;
+    alert("Produto: Counter-Strike 2\\nQuantidade: " + quantidade + "\\nValor unitario: R$ 50");
+}
+</script>
+
+</body>
+</html>

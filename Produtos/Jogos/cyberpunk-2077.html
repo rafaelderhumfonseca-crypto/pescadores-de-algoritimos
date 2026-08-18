@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cyberpunk 2077 - Nexus Store</title>
+
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/1686/1686306.png">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        ⚔️ 💎 NEXUS <span class="destaque-store">STORE 💎 ⚔️</span>
+    </div>
+</header>
+
+<main class="produto">
+
+    <section class="galeria">
+        <img src="https://store-images.s-microsoft.com/image/apps.47379.63407868131364914.bcaa868c-407e-42c2-baeb-48a3c9f29b54.89bb995b-b066-4a53-9fe4-0260ce07e894" class="principal" alt="Cyberpunk 2077">
+    </section>
+
+    <section class="informacoes">
+
+        <h1>Cyberpunk 2077</h1>
+
+        <div class="avaliacao">
+            <span>★★★★★</span>
+        </div>
+
+        <div class="preco">
+            R$ 38
+        </div>
+
+        <div class="quantidade">
+            <label>Quantidade</label>
+
+            <div class="contador">
+                <button type="button" onclick="alterarQuantidade(-1)">-</button>
+                <input id="quantidade" type="text" value="1" readonly>
+                <button type="button" onclick="alterarQuantidade(1)">+</button>
+            </div>
+        </div>
+
+        <button class="comprar" type="button" onclick="comprarAgora()">
+            Comprar Agora
+        </button>
+
+        <p>
+            <br><br><br><br>
+            Informacoes: Cyberpunk 2077 e um RPG de acao em mundo aberto ambientado em uma cidade futurista. O jogador controla V, personaliza habilidades e equipamentos e participa de missoes com diferentes possibilidades de abordagem.
+            <br>
+        </p>
+
+    </section>
+
+</main>
+
+<script>
+function alterarQuantidade(valor) {
+    const campo = document.getElementById("quantidade");
+    let quantidade = parseInt(campo.value) + valor;
+
+    if (quantidade < 1) {
+        quantidade = 1;
+    }
+
+    campo.value = quantidade;
+}
+
+function comprarAgora() {
+    const quantidade = document.getElementById("quantidade").value;
+    alert("Produto: Cyberpunk 2077\\nQuantidade: " + quantidade + "\\nValor unitario: R$ 38");
+}
+</script>
+
+</body>
+</html>

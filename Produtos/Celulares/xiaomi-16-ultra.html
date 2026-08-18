@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Xiaomi 16 Ultra - Nexus Store</title>
+
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/1686/1686306.png">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        ⚔️ 💎 NEXUS <span class="destaque-store">STORE 💎 ⚔️</span>
+    </div>
+</header>
+
+<main class="produto">
+
+    <section class="galeria">
+        <img src="https://preview.redd.it/hello-this-is-my-concept-design-of-xiaomi-16-ultra-that-i-v0-g6ddjpz4duyd1.png?auto=webp&s=3ece04bd8448cf8455f96676aacc7a1bc9434e32" class="principal" alt="Xiaomi 16 Ultra">
+    </section>
+
+    <section class="informacoes">
+
+        <h1>Xiaomi 16 Ultra</h1>
+
+        <div class="avaliacao">
+            <span>★★★★★</span>
+        </div>
+
+        <div class="preco">
+            R$ 4.500,00
+        </div>
+
+        <div class="quantidade">
+            <label>Quantidade</label>
+
+            <div class="contador">
+                <button type="button" onclick="alterarQuantidade(-1)">-</button>
+                <input id="quantidade" type="text" value="1" readonly>
+                <button type="button" onclick="alterarQuantidade(1)">+</button>
+            </div>
+        </div>
+
+        <button class="comprar" type="button" onclick="comprarAgora()">
+            Comprar Agora
+        </button>
+
+        <p>
+            <br><br><br><br>
+            Informacoes: O Xiaomi 16 Ultra e um smartphone premium focado em desempenho e fotografia. Ele oferece tela de alta qualidade, conjunto de cameras avancado, processador potente, bateria de longa duracao e conectividade 5G.
+            <br>
+        </p>
+
+    </section>
+
+</main>
+
+<script>
+function alterarQuantidade(valor) {
+    const campo = document.getElementById("quantidade");
+    let quantidade = parseInt(campo.value) + valor;
+
+    if (quantidade < 1) {
+        quantidade = 1;
+    }
+
+    campo.value = quantidade;
+}
+
+function comprarAgora() {
+    const quantidade = document.getElementById("quantidade").value;
+    alert("Produto: Xiaomi 16 Ultra\\nQuantidade: " + quantidade + "\\nValor unitario: R$ 4.500,00");
+}
+</script>
+
+</body>
+</html>

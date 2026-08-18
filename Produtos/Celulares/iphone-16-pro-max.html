@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>iPhone 16 Pro Max - Nexus Store</title>
+
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/1686/1686306.png">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        ⚔️ 💎 NEXUS <span class="destaque-store">STORE 💎 ⚔️</span>
+    </div>
+</header>
+
+<main class="produto">
+
+    <section class="galeria">
+        <img src="https://fastshopbr.vtexassets.com/arquivos/ids/5111556/4_4_675b42d8447c42f8bd09ed78.jpg?v=639180123157170000" class="principal" alt="iPhone 16 Pro Max">
+    </section>
+
+    <section class="informacoes">
+
+        <h1>iPhone 16 Pro Max</h1>
+
+        <div class="avaliacao">
+            <span>★★★★★</span>
+        </div>
+
+        <div class="preco">
+            R$ 6.000,00
+        </div>
+
+        <div class="quantidade">
+            <label>Quantidade</label>
+
+            <div class="contador">
+                <button type="button" onclick="alterarQuantidade(-1)">-</button>
+                <input id="quantidade" type="text" value="1" readonly>
+                <button type="button" onclick="alterarQuantidade(1)">+</button>
+            </div>
+        </div>
+
+        <button class="comprar" type="button" onclick="comprarAgora()">
+            Comprar Agora
+        </button>
+
+        <p>
+            <br><br><br><br>
+            Informacoes: O iPhone 16 Pro Max combina tela grande, alto desempenho e cameras avancadas. Ele oferece excelente velocidade para jogos e aplicativos, gravacao de videos em alta qualidade, 5G e os recursos do iOS.
+            <br>
+        </p>
+
+    </section>
+
+</main>
+
+<script>
+function alterarQuantidade(valor) {
+    const campo = document.getElementById("quantidade");
+    let quantidade = parseInt(campo.value) + valor;
+
+    if (quantidade < 1) {
+        quantidade = 1;
+    }
+
+    campo.value = quantidade;
+}
+
+function comprarAgora() {
+    const quantidade = document.getElementById("quantidade").value;
+    alert("Produto: iPhone 16 Pro Max\\nQuantidade: " + quantidade + "\\nValor unitario: R$ 6.000,00");
+}
+</script>
+
+</body>
+</html>

@@ -5,7 +5,7 @@ Template do README.md
 ## Tema
 Loja de jogos fisicos (cd's), consoles, hardware de computadores e celulares em geral
 ## Solução
-maior satisfação do cliente em relação a preços, conforto e praticidade nas compras
+maior satisfação do cliente em relação a preços, conforto e praticidade nas compras (utilizando piscicologia das cores e métodos de liberação de dopamina atráves de "truques" piscicologicos atuais)
 ## Público-alvo
 Gamers, Programadores, Empresas de tecnologia e Usuarios em geral de tecnologias (Como os produtos escritos acima)
 ## Funcionalidades principais (máx. 5)
@@ -14,8 +14,12 @@ Gamers, Programadores, Empresas de tecnologia e Usuarios em geral de tecnologias
 ## Diferencial competitivo
 Utilisação de métodos piscicologicos para melhor experiencia do usuario final
 ## Tecnologias planejadas (Back-end)
-verificação de duas etapas,
-menu de configurações próprio de cada usuario(que se mantenha mesmo após sair do site) e Utilisação em mais de um tipo de maquina (computadores, tablet's e celulares)
+cadastro
+login
+manter usuario logado
+verificação de duas etapas
+menu de configurações próprio de cada usuario(que se mantenha mesmo após sair do site)
+Utilisação em mais de um tipo de maquina (computadores, tablet's e celulares)
 ## Riscos iniciais
 1. falhas de banco de dados
 2. falha no funcionamento como servidor remoto

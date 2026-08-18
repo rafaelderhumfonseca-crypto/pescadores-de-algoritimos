@@ -101,7 +101,8 @@ nav a:hover {
     color: #ea00ff;
 }
 
-h4,h5 {
+h4,
+h5 {
     color: #ffffff70;
 }
 
@@ -366,4 +367,29 @@ footer {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+.card .btn-comprar {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 20px;
+    
+    border-radius: 4px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.card .btn-comprar:hover {
+    background-color: #4d4d4d;
+}
+
+
+section {
+    max-width: 1200px;
 }
