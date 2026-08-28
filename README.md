@@ -1,10 +1,11 @@
 # pescadores de algoritimos
-> **CEEP – Pedro Boaretto Neto**
-> **Curso:** Técnico em Desenvolvimento de Sistemas
-> **Disciplina:** Inovação Tecnológica e Empreendedorismo
-> **Professor:** Diego
-> **Projeto:** Nexus Store - E-commerce de Tecnologia, Consoles, Hardware e Jogos (AV5)
-> **Equipe:** Pescadores de Algoritmos
+
+> **CEEP – Pedro Boaretto Neto**  
+> **Curso:** Técnico em Desenvolvimento de Sistemas  
+> **Disciplina:** Inovação Tecnológica e Empreendedorismo  
+> **Professor:** Diego  
+> **Projeto:** Nexus Store - E-commerce de Tecnologia, Consoles, Hardware e Jogos (AV5)  
+> **Equipe:** Pescadores de Algoritmos  
 > **Data:** 24 e 25/08/2026  
 
 ---
