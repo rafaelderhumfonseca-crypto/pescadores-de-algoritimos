@@ -115,6 +115,8 @@ Convidamos você a explorar nosso protótipo interativo, testar nosso repositór
 - (https://trello.com/invite/b/6a33d90f726edf92ec51a576/ATTIdab6a2695f1ec5d2119e765574461099DB04A9A9/gaminnosso)
 - **Protótipo Interativo[MVP] (Figma):** Protótipo no Figma
 - (https://www.figma.com/make/mwao2IPRydcNvPR8mClWID/Portal-Gamer-Completo?t=kgo7CCL2jJ0pxksL-20&fullscreen=1)
+- **Repositório das atividades:** Repositorio de atividades do 3°Trimestre
+- (https://github.com/victorgji/atividades-do-grupo)
 
 ---
 

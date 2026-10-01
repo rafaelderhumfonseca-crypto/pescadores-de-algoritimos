@@ -169,15 +169,15 @@ if (!isset($_SESSION['usuario_id'])) {
 
 
                 <div class="card">
-                    <img src="Imagens/Placa de Video/images (14).jpg">
-                    <h3>AMD Radeon RX 7900 <br>GRE</h3>
+                    <img src="Imagens/Placa de Video/AMD Radeon RX 7900 GRE.jpg">
+                    <h3>AMD Radeon RX 7900 GRE</h3>
                     <p>R$ 5.800.60</p>
                     <a href="Produtos/Placa de Video/placa copy 19.html" class="btn-comprar">Comprar</a>
                 </div>
 
 
                 <div class="card">
-                    <img src="Imagens/Placa de Video/images (15).jpg">
+                    <img src="Imagens/Placa de Video/NVIDIA GeForce RTX 3090 Ti.jpg">
                     <h3>NVIDIA GeForce RTX 3090 Ti</h3>
                     <p>R$ 12.000.00</p>
                     <a href="Produtos/Placa de Video/placa copy 20.html" class="btn-comprar">Comprar</a>
@@ -185,23 +185,23 @@ if (!isset($_SESSION['usuario_id'])) {
 
 
                 <div class="card">
-                    <img src="Imagens/Placa de Video/images (16).jpg">
-                    <h3>AMD Radeon RX 7700 <br>XT</h3>
+                    <img src="Imagens/Placa de Video/AMD Radeon RX 7700 XT.jpg">
+                    <h3>AMD Radeon RX 7700 XT</h3>
                     <p>R$ 4.800.00</p>
                     <a href="Produtos/Placa de Video/placa copy 21.html" class="btn-comprar">Comprar</a>
                 </div>
 
 
                 <div class="card">
-                    <img src="Imagens/Placa de Video/images (17).jpg">
-                    <h3>AMD Radeon RX 6950 <br>XT</h3>
+                    <img src="Imagens/Placa de Video/AMD Radeon RX 6950 XT.jpg">
+                    <h3>AMD Radeon RX 6950 XT</h3>
                     <p>R$ 6.500.00</p>
                     <a href="Produtos/Placa de Video/placa copy 22.html" class="btn-comprar">Comprar</a>
                 </div>
 
 
                 <div class="card">
-                    <img src="Imagens/Placa de Video/images (18).jpg">
+                    <img src="Imagens/Placa de Video/NVIDIA GeForce RTX 4070.jpg">
                     <h3>NVIDIA GeForce RTX 4070</h3>
                     <p>R$ 8.500.00</p>
                     <a href="Produtos/Placa de Video/placa copy 23.html" class="btn-comprar">Comprar</a>
@@ -209,7 +209,7 @@ if (!isset($_SESSION['usuario_id'])) {
 
 
                 <div class="card">
-                    <img src="Imagens/Placa de Video/images (19).jpg">
+                    <img src="Imagens/Placa de Video/VIDIA GeForce RTX 3080.jpg">
                     <h3>NVIDIA GeForce RTX 3080</h3>
                     <p>R$ 10.000.00</p>
                     <a href="Produtos/Placa de Video/placa copy 24.html" class="btn-comprar">Comprar</a>
@@ -217,15 +217,15 @@ if (!isset($_SESSION['usuario_id'])) {
 
 
                 <div class="card">
-                    <img src="Imagens/Placa de Video/images (20).jpg">
-                    <h3>AMD Radeon RX 6750 <br>XT</h3>
+                    <img src="Imagens/Placa de Video/AMD Radeon RX 6750 XT.jpg">
+                    <h3>AMD Radeon RX 6750 XT</h3>
                     <p>R$ 5.200.00</p>
                     <a href="Produtos/Placa de Video/placa copy 25.html" class="btn-comprar">Comprar</a>
                 </div>
 
 
                 <div class="card">
-                    <img src="Imagens/Placa de Video/images (21).jpg">
+                    <img src="Imagens/Placa de Video/NVIDIA GeForce RTX 3070.jpg">
                     <h3>NVIDIA GeForce RTX 3070</h3>
                     <p>R$ 7.500.00</p>
                     <a href="Produtos/Placa de Video/placa copy 26.html" class="btn-comprar">Comprar</a>
@@ -233,31 +233,31 @@ if (!isset($_SESSION['usuario_id'])) {
 
 
                 <div class="card">
-                    <img src="Imagens/Placa de Video/images (22).jpg">
-                    <h3>Intel <br>Arc <br>B570</h3>
+                    <img src="Imagens/Placa de Video/Intel Arc B570.jpg">
+                    <h3>Intel Arc B570</h3>
                     <p>R$ 3.200.00</p>
                     <a href="Produtos/Placa de Video/placa copy 27.html" class="btn-comprar">Comprar</a>
                 </div>
 
 
                 <div class="card">
-                    <img src="Imagens/Placa de Video/images (23).jpg">
-                    <h3>AMD Radeon RX 7600 <br>XT</h3>
+                    <img src="Imagens/Placa de Video/AMD Radeon RX 7600 XT.jpg">
+                    <h3>AMD Radeon RX 7600 XT</h3>
                     <p>R$ 4.500.00</p>
                     <a href="Produtos/Placa de Video/placa copy 28.html" class="btn-comprar">Comprar</a>
                 </div>
 
 
                 <div class="card">
-                    <img src="Imagens/Placa de Video/images (24).jpg">
-                    <h3>AMD Radeon RX <br>6600</h3>
+                    <img src="Imagens/Placa de Video/AMD Radeon RX 6600.jpg">
+                    <h3>AMD Radeon RX 6600</h3>
                     <p>R$ 5.200.00</p>
                     <a href="Produtos/Placa de Video/placa copy 29.html" class="btn-comprar">Comprar</a>
                 </div>
 
 
                 <div class="card">
-                    <img src="Imagens/Placa de Video/images (25).jpg">
+                    <img src="Imagens/Placa de Video/NVIDIA GeForce RTX 3060 (12 GB).jpg">
                     <h3>NVIDIA GeForce RTX 3060 (12 GB)</h3>
                     <p>R$ 5.200.00</p>
                     <a href="Produtos/Placa de Video/placa copy 30.html" class="btn-comprar">Comprar</a>
@@ -265,24 +265,24 @@ if (!isset($_SESSION['usuario_id'])) {
 
 
                 <div class="card">
-                    <img src="Imagens/Placa de Video/images (26).jpg">
-                    <h3>AMD Radeon RX 6600</h3>
+                    <img src="Imagens/Placa de Video/AMD Radeon RX 6600(ox).jpg">
+                    <h3>AMD Radeon RX 6600(ox)</h3>
                     <p>R$ 7.500.00</p>
                     <a href="Produtos/Placa de Video/placa copy 31.html" class="btn-comprar">Comprar</a>
                 </div>
 
 
                 <div class="card">
-                    <img src="Imagens/Placa de Video/images (27).jpg">
-                    <h3>Intel <br>Arc <br>A580</h3>
+                    <img src="Imagens/Placa de Video/Intel Arc A580.jpg">
+                    <h3>Intel Arc A580</h3>
                     <p>R$ 3.200.00</p>
                     <a href="Produtos/Placa de Video/placa copy.html" class="btn-comprar">Comprar</a>
                 </div>
 
 
                 <div class="card">
-                    <img src="Imagens/Placa de Video/images (28).jpg">
-                    <h3>AMD Radeon RX 7800 <br>XT</h3>
+                    <img src="Imagens/Placa de Video/AMD Radeon RX 7800 XT.jpg">
+                    <h3>AMD Radeon RX 7800 XT</h3>
                     <p>R$ 3.000.00</p>
                     <a href="Produtos/Placa de Video/placa.html" class="btn-comprar">Comprar</a>
                 </div>
