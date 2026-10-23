@@ -8,10 +8,10 @@ if (!isset($_SESSION['usuario_id'])) {
 
     exit(); 
 }
-?>
+
 
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br"
 
     <head>
         <meta charset="UTF-8">
